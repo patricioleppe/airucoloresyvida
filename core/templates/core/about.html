@@ -1,0 +1,30 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{%block title %}Historia{% endblock%}
+
+{% block content %}
+
+  <section class="page-section about-heading">
+    <div class="container">
+      <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/about.jpg' %}" alt="">
+      <div class="about-heading-content">
+        <div class="row">
+          <div class="col-xl-9 col-lg-10 mx-auto">
+            <div class="bg-faded rounded p-5">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Pintura, Greda y Plantas.</span>
+                <span class="section-heading-lower">Historia</span>
+              </h2>
+              <p>Airu fue fundada el 12 de Noviembre del 2020 por su dueña Stephanie Constacio.</p>
+              <p>Airu nace de la necesidad de estar conectada con las plantas y la pintura, que son dos de las cosas que mas amo cuidar y hacer.</p>
+              <p>Mi vida gira en torno a la naturaleza y los colores de esta, mas aun de la tierra de donde viene la greda y la alfareria y lo importante de esto en nuestra cultura.</p>
+              <p>Airu es como un hijo que amo y respeto y que crece a pasos gigantes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}
